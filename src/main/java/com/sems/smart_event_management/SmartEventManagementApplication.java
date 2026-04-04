@@ -13,5 +13,4 @@ public class SmartEventManagementApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SmartEventManagementApplication.class, args);
 	}
-
 }
