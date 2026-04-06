@@ -1,9 +1,6 @@
 package com.sems.enums;
 
-public class PaymentStatus {
+public enum PaymentStatus {
 
-	private String PENDING;
-	private String SUCCESS;
-	private String FAILED;
-	private String REFUNDED;
+	PENDING, SUCCESS, FAILED, REFUNDED
 }

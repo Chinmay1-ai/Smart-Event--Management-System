@@ -1,8 +1,8 @@
 package com.sems.enums;
 
-public class RegistrationStatus {
+public enum RegistrationStatus {
 
-	private String CONFIRMED;
-	private String WAITLISTED;
-    private String  CANCELLED;
+	CONFIRMED,
+	WAITLISTED,
+    CANCELLED
 }

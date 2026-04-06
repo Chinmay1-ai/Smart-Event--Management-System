@@ -1,8 +1,8 @@
 package com.sems.enums;
 
-public class NotificationType {
+public enum NotificationType {
 
-	private String CONFIRMATION;
-	private String CANCELLATION;
-	private String WAITLIST_PROMOTED;
+	CONFIRMATION,
+	CANCELLATION,
+	WAITLIST_PROMOTED
 }
